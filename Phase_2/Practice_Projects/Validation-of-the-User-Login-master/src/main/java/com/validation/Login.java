@@ -44,7 +44,7 @@ public class Login extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		if(username.equals("kamlesh@mandal.com") && password.equals("12345")) {
+		if(username.equals("tej@gmail.com") && password.equals("12345")) {
 			RequestDispatcher rd = request.getRequestDispatcher("Dashboard");
 			rd.forward(request, response);
 		}
