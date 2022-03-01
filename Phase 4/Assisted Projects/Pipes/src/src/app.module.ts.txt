@@ -1,0 +1,9 @@
+import { ConvertToSpacesPipe } from 'src/app/products/convert-to-spaces.pipe';
+
+declarations: [
+   AppComponent,
+   ProductListComponent,
+   ConvertToSpacesPipe
+ ]
+
+
